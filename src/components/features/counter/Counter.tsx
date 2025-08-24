@@ -12,7 +12,6 @@ export function Counter() {
         <div
           className={styles.button}
           onClick={() => setCount((count) => count + 1)}
-          onTouchStart={() => setCount((count) => count + 1)}
           role="button"
           tabIndex={0}
           onKeyDown={(e) => {
